@@ -11,7 +11,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(227, 25, 55, 0.7);; /* 검은색 불투명한 상자 */
+    background-color: rgba(68, 95, 68, 0.7);; /* 검은색 불투명한 상자 */
     padding: 50px 50px;
     border-radius: 15px; /* 라운드 코너 */
     max-width: 700px;

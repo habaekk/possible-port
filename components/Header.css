@@ -10,7 +10,7 @@
   }
   
   .header.scrolled {
-    background-color: #E31937; /* 스크롤 시 빨간색 */
+    background-color: #1b2518; /* 스크롤 시 빨간색 */
     backdrop-filter: none; /* 스크롤 시 블러 효과 제거 */
   }
   
