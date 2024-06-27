@@ -1,3 +1,4 @@
+import HomeImage from '../components/HomeImage';
 import About from '../components/About';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
@@ -5,9 +6,14 @@ import Contact from '../components/Contact';
 export default function Home() {
   return (
     <div>
-      <About />
-      <Projects />
-      <Contact />
+      <HomeImage />
+      <div className="main-content">
+        
+        <About />
+        <Projects />
+        <Contact />
+      </div>
     </div>
+
   );
 }
