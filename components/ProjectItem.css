@@ -13,6 +13,7 @@
     left: 0;
     width: 100%;
     height: 100%;
+    transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out; /* 마우스 오버 시 효과 추가 */
   }
   
   .project-image-inner {
@@ -32,6 +33,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    transition: background-color 0.3s ease-in-out; /* 마우스 오버 시 배경색 변경 효과 추가 */
   }
   
   .project-title {
@@ -46,10 +48,13 @@
     text-align: center;
     margin-top: auto; /* 중앙에 배치 */
   }
-
-  .project-content:hover {
-    
+  
+  /* 마우스 오버 효과 추가 */
+  .project-item:hover .project-image {
+    transform: scale(1.05); /* 이미지 확대 효과 */
   }
-
-
+  
+  .project-item:hover .project-content {
+    background-color: rgba(0, 0, 0, 0); /* 텍스트 배경색 완전히 투명하게 */
+  }
   
