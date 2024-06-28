@@ -6,6 +6,6 @@
 .main-content {
   margin-left: auto;
   margin-right: auto;
-  max-width: 800px; /* 최대 너비 설정 */
+  max-width: 900px; /* 최대 너비 설정 */
   padding: 0 20px; /* 양 옆 패딩 */
 }
