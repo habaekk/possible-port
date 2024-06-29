@@ -29,7 +29,7 @@ const Projects = () => (
       <ProjectItem
         image="/images/swingBy2.webp"
         title="SwingBy-RL"
-        description="Unity Machine Learning Program"
+        description="Unity Reinforcement Learning Program"
       />
       <ProjectItem
         image="/images/draw1.webp"
