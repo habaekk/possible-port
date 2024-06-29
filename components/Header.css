@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+
 .header {
     background-color: rgba(255, 255, 255, 0.0); /* 반투명한 유리 효과 배경색 */
     backdrop-filter: blur(2px); /* 유리 효과 블러 */
@@ -7,6 +9,7 @@
     top: 0;
     z-index: 1000;
     transition: background-color 0.3s ease, padding 0.3s ease, backdrop-filter 0.3s ease;
+    font-family: 'Nanum Gothic', sans-serif; /* 헤더에 폰트 적용 */
   }
   
   .header.scrolled {
@@ -30,8 +33,8 @@
   .nav-item {
     cursor: pointer;
     transition: color 0.3s ease;
-    font-weight: bold;
     color: #000000;
+    font-size: 1rem;
   }
   
   .nav-item:hover {
