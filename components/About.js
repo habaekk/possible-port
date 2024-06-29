@@ -3,7 +3,8 @@ import React from 'react';
 const About = () => (
   <section id="about" className="p-8">
     <h2 className="text-2xl font-bold mb-4">내 정보</h2>
-    <p>한 줄 소개</p>
+    <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
+    <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
     <p>이메일: haback1493@gmail.com</p>
     <p>깃허브: <a href="https://github.com/habaekk" target="_blank" rel="noopener noreferrer">https://github.com/habaekk</a></p>
 

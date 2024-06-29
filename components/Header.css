@@ -2,7 +2,7 @@
 
 .header {
     background-color: rgba(255, 255, 255, 0.0); /* 반투명한 유리 효과 배경색 */
-    backdrop-filter: blur(2px); /* 유리 효과 블러 */
+    backdrop-filter: blur(4px); /* 유리 효과 블러 */
     padding: 20px;
     position: fixed;
     width: 100%;
@@ -32,7 +32,7 @@
   .nav-item {
     cursor: pointer;
     transition: color 0.3s ease;
-    color: #000000;
+    color: #ffffff;
     font-size: 1rem;
   }
   

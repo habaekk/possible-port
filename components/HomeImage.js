@@ -5,7 +5,7 @@ import './HomeImage.css';
 const HomeImage = () => (
   <div className="home-image-container">
     <Image
-      src="/images/sample.jpg" // 이미지 경로 설정
+      src="/images/me3.jpg" // 이미지 경로 설정
       alt="Home Image"
       layout="fill" // 이미지가 컨테이너를 꽉 채우도록 설정
       objectFit="cover" // 이미지 비율 유지하며 꽉 채우기
@@ -13,7 +13,7 @@ const HomeImage = () => (
     <div className="quote-box">
       <div className="quote">
         <span className="quote-mark left-quote">“</span>
-        <p className="quote-text">불가능확률 포트폴리오</p>
+        <p className="quote-text">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
         <span className="quote-mark right-quote">”</span>
       </div>
     </div>
