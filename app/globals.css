@@ -12,3 +12,7 @@
   max-width: 900px; /* 최대 너비 설정 */
   padding: 0 20px; /* 양 옆 패딩 */
 }
+
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+}

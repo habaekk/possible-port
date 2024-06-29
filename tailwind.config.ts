@@ -9,6 +9,6 @@ module.exports = {
         customRed: '#1b2518',
       },
     },
-  },
   plugins: [],
+  }
 }
