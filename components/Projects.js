@@ -4,37 +4,37 @@ import './Projects.css';
 
 const Projects = () => (
   <section id="projects" className="projects-section">
-    <h2 className="text-2xl font-bold mb-4">Projects</h2>
+    <h2 className="text-2xl font-bold mb-4">프로젝트</h2>
     <div className="projects-grid">
       <ProjectItem
         image="/images/f1.jpg"
-        title="Project 1"
-        description="Description of project 1"
+        title="Moon Shape Widget"
+        description="IOS Application"
       />
       <ProjectItem
         image="/images/f1.jpg"
-        title="Project 2"
-        description="Description of project 2"
+        title="Watering Widget"
+        description="Android Application"
       />
       <ProjectItem
         image="/images/f1.jpg"
-        title="Project 3"
-        description="Description of project 3"
+        title="CatSAMA"
+        description="React-Native Application"
       />
       <ProjectItem
         image="/images/f1.jpg"
-        title="Project 4"
-        description="Description of project 4"
+        title="Impossible Possibility Portfolio"
+        description="Next.JS Web Application"
       />
       <ProjectItem
         image="/images/f1.jpg"
-        title="Project 5"
-        description="Description of project 5"
+        title="SwingBy-RL"
+        description="Unity Machine Learning Program"
       />
       <ProjectItem
         image="/images/f1.jpg"
-        title="Project 6"
-        description="Description of project 6"
+        title="Story and Draw"
+        description="RenPY Visual Novel Game"
       />
     </div>
   </section>
