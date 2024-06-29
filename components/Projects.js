@@ -7,7 +7,7 @@ const Projects = () => (
     <h2 className="text-2xl font-bold mb-4">프로젝트</h2>
     <div className="projects-grid">
       <ProjectItem
-        image="/images/moonShape1.webp"
+        image="/images/moonShape3.png"
         title="Moon Shape Widget"
         description="IOS Application"
       />
@@ -32,7 +32,7 @@ const Projects = () => (
         description="Unity Machine Learning Program"
       />
       <ProjectItem
-        image="/images/f1.jpg"
+        image="/images/draw1.webp"
         title="Story and Draw"
         description="RenPY Visual Novel Game"
       />
