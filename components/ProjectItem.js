@@ -9,7 +9,8 @@ const ProjectItem = ({ id, image, title, description }) => {
   const router = useRouter();
 
   const handleClick = () => {
-    router.push(`/${id}`);
+    const slug = title.toLowerCase().replace(/\s+/g, '-');
+    router.push(`/${slug}`);
   };
 
   return (
