@@ -2,7 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 
 const About = () => (
-  <section id="about" className="p-8">
+  <section id="about" className="p-6">
     <h2 className="text-2xl font-bold mb-4">내 정보</h2>
     <div className="flex mb-8">
       <div className="w-1/3">

@@ -1,6 +1,3 @@
-"use client";
-
-import { useParams } from 'next/navigation';
 import projects from '../data/projects';
 
 const ProjectDetailPage = (props: any) => {
