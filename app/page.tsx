@@ -12,9 +12,8 @@ export default function Home() {
       <Header />
       <HomeImage />
       <div className="main-content">
-        
-        <About />
         <Projects />
+        <About />
         <Contact />
       </div>
     </div>

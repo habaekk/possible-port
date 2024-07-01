@@ -16,8 +16,9 @@ const About = () => (
       </div>
       <div className="w-2/3 pl-8">
         <h3 className="text-xl font-bold mb-1">박하백</h3>
-        <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
-        <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
+        <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
+        <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
+
         <br />
         <h3 className="text-xl font-bold mb-1">교육</h3>
         <p><strong>서울과학기술대학교 (학사)</strong></p>
