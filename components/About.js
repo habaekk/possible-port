@@ -1,7 +1,19 @@
+"use client";
+
 import React from 'react';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
-const About = () => (
+const About = () => {
+
+  const router = useRouter();
+
+  const handleAboutMeClick = () => {
+    router.push('/about_me');
+  };
+
+  return(
+
   <section id="about" className="p-6">
     <h2 className="text-2xl font-bold mb-4">내 정보</h2>
     <div className="flex mb-8">
@@ -15,7 +27,22 @@ const About = () => (
         />
       </div>
       <div className="w-2/3 pl-8">
-        <h3 className="text-xl font-bold mb-1">박하백</h3>
+      <div className="flex items-center">
+            <h3 className="text-xl font-bold">박하백</h3>
+            <div
+              className="cursor-pointer"
+              onClick={handleAboutMeClick}
+              style={{
+                width: 0,
+                height: 0,
+                borderTop: '10px solid transparent',
+                borderBottom: '10px solid transparent',
+                borderLeft: '10px solid black',
+                marginLeft: '10px',
+              }}
+            />
+          </div>
+        
         <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
         <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
 
@@ -39,6 +66,7 @@ const About = () => (
     </div>    
     
   </section>
-);
+  )
+};
 
 export default About;
