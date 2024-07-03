@@ -29,7 +29,7 @@ const About = () => {
       <div className="w-2/3 pl-8">
       <div className="flex items-center">
             <h3 className="text-xl font-bold">박하백</h3>
-            <div
+            {/* <div
               className="cursor-pointer"
               onClick={handleAboutMeClick}
               style={{
@@ -37,10 +37,11 @@ const About = () => {
                 height: 0,
                 borderTop: '10px solid transparent',
                 borderBottom: '10px solid transparent',
-                borderLeft: '10px solid black',
+                borderLeft: '10px solid skyblue',
                 marginLeft: '10px',
               }}
             />
+            */}
           </div>
         
         <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>

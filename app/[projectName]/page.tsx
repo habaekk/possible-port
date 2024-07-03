@@ -1,7 +1,13 @@
 "use client";
 
+import React from 'react';
 import projects from '../data/projects';
-import ProjectDetail from '../../components/projects/ProjectDetail';
+import MoonShapeWidget from '../../components/projects/MoonShapeWidget';
+import WateringWidget from '../../components/projects/WateringWidget';
+import CatSama from '../../components/projects/CatSama';
+import Portfolio from '../../components/projects/Portfolio';
+import DefaultProject from '../../components/projects/DefaultProject';
+
 const ProjectDetailPage = (props) => {
   const projectTitle = props.params.projectName;
   const project = projects.find(
@@ -10,7 +16,18 @@ const ProjectDetailPage = (props) => {
 
   if (!project) return <p>프로젝트를 찾을 수 없습니다.</p>;
 
-  return <ProjectDetail project={project} />;
+  switch (project.title) {
+    case 'Moon Shape Widget':
+      return <MoonShapeWidget project={project} />;
+    case 'Watering Widget':
+      return <WateringWidget project={project} />;
+    case 'CatSAMA':
+      return <CatSama project={project} />;
+    case 'Impossible Possibility Portfolio':
+      return <Portfolio project={project} />;
+    default:
+      return <DefaultProject project={project} />;
+  }
 };
 
 export default ProjectDetailPage;
