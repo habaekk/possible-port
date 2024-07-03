@@ -3,7 +3,25 @@ import React from 'react';
 const CatSama = ({ project }) => (
   <div className="p-8">
     <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
-    <p>{project.description} 333</p>
+    <section className="mb-8">
+        <p>{project.description}</p>
+    </section>
+    
+    <section className="mb-8">
+      <h2 className="text-2xl font-bold mb-4">개요</h2>
+      <p>개요</p>
+    </section>
+
+    <section className="mb-8">
+      <h2 className="text-2xl font-bold mb-4">문제 해결</h2>
+      <p>문제 해결 내용</p>
+    </section>
+
+    <section className="mb-8">
+      <h2 className="text-2xl font-bold mb-4">성과</h2>
+      <p>성과</p>
+    </section>
+
     {/* CatSama에 대한 추가 내용 */}
   </div>
 );
