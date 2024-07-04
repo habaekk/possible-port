@@ -44,8 +44,8 @@ const About = () => {
             */}
           </div>
         
-        <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
-        <p className="font-bold">ㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ</p>
+        <p className="font-bold">모바일도 좋아하는 프론트 엔드 개발자</p>
+        <p className="font-bold"></p>
 
         <br />
         <h3 className="text-xl font-bold mb-1">교육</h3>
