@@ -2,8 +2,11 @@ import './globals.css';
 import Footer from '../components/Footer';
 
 export const metadata = {
-  title: 'Habaek Bak',
-  description: 'Habaek Bak Portfolio',
+  title: '박하백 포트폴리오',
+  description: '박하백 포트폴리오',
+  icons: {
+    icon: "/images/logo.webp",
+  },
 };
 
 export default function RootLayout({ children }) {
