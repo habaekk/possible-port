@@ -44,7 +44,7 @@ const About = () => {
             */}
           </div>
         
-        <p className="font-bold">모바일도 좋아하는 프론트 엔드 개발자</p>
+        <p className="font-bold">모바일을 좋아하는 프론트 엔드 개발자</p>
         <p className="font-bold"></p>
 
         <br />
