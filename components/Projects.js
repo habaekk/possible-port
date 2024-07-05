@@ -17,15 +17,16 @@ const Projects = () => (
         description="Android Application"
       />
       <ProjectItem
-        image="/images/CatSAMA1.webp"
-        title="CatSAMA"
-        description="React-Native Application"
-      />
-      <ProjectItem
         image="/images/drive1.webp"
         title="Impossible Possibility Portfolio"
         description="Next.JS Web Application"
       />
+      <ProjectItem
+        image="/images/CatSAMA1.webp"
+        title="CatSAMA"
+        description="React-Native Application"
+      />
+      
     </div>
   </section>
 );
