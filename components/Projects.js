@@ -12,7 +12,7 @@ const Projects = () => (
         description="IOS Application"
       />
       <ProjectItem
-        image="/images/Watering.webp"
+        image="/images/watering.webp"
         title="Watering Widget"
         description="Android Application"
       />
