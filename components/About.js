@@ -48,12 +48,12 @@ const About = () => {
           <br />
           <h3 className="text-xl font-bold mb-1">Education</h3>
           <p><strong>Seoul National University of Science and Technology</strong></p>
-          <p><strong>(Bachelor's degree)</strong></p>
+          <p><strong>(Bachelor&apos;s degree)</strong></p>
           <p>ITM → Computer Science [ 3.93 / 4.5 ]</p>
 
           <br />
           <p><strong>Udemy (Online Education)</strong></p>
-          <p>iOS & Swift - The Complete iOS App Development Bootcamp</p>
+          <p>iOS &amp; Swift - The Complete iOS App Development Bootcamp</p>
 
           <br />
           <h3 className="text-xl font-bold mb-1">Qualifications</h3>
