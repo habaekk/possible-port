@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-export default function AboutMeLayout({ children }) {
+interface AboutMeLayoutProps {
+  children: ReactNode;
+}
+
+export default function AboutMeLayout({ children }: AboutMeLayoutProps) {
   return (
     <div>
       <main>{children}</main>
