@@ -7,22 +7,22 @@ const Projects = () => (
     <h2 className="text-2xl font-bold mb-5">Projects</h2>
     <div className="projects-grid">
       <ProjectItem
-        image="/images/moonShape3.png"
+        image="/images/moonShape.webp"
         title="Moon Shape Widget"
         description="IOS Application"
       />
       <ProjectItem
-        image="/images/Watering3.png"
+        image="/images/Watering.webp"
         title="Watering Widget"
         description="Android Application"
       />
       <ProjectItem
-        image="/images/drive1.webp"
+        image="/images/drive.webp"
         title="Impossible Possibility Portfolio"
         description="Next.JS Web Application"
       />
       <ProjectItem
-        image="/images/CatSAMA1.webp"
+        image="/images/catSAMA.webp"
         title="CatSAMA"
         description="React-Native Application"
       />
