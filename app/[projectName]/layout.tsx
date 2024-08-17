@@ -1,8 +1,7 @@
-export default function ProjectsLayout({ children }) {
-    return (
-      <div className="main-content">
-        <main>{children}</main>
-      </div>
-    );
-  }
-  
+import React from 'react';
+
+const ProjectsLayout: React.FC = ({ children }) => {
+  return <div>{children}</div>;
+};
+
+export default ProjectsLayout;
