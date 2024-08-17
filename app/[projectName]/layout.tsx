@@ -1,6 +1,10 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 
-const ProjectsLayout: React.FC = ({ children }) => {
+interface ProjectsLayoutProps {
+  children: ReactNode;
+}
+
+const ProjectsLayout: React.FC<ProjectsLayoutProps> = ({ children }) => {
   return <div>{children}</div>;
 };
 
