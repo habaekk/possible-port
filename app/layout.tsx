@@ -1,5 +1,6 @@
 import './globals.css';
 import Footer from '../components/Footer';
+import { ReactNode } from 'react';
 
 export const metadata = {
   title: '박하백 포트폴리오',
@@ -9,7 +10,11 @@ export const metadata = {
   },
 };
 
-export default function RootLayout({ children }) {
+interface RootLayoutProps {
+  children: ReactNode;  // children의 타입을 명시적으로 ReactNode로 지정
+}
+
+export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en">
       <body>

@@ -8,8 +8,14 @@ import CatSama from '../../components/projects/CatSama';
 import Portfolio from '../../components/projects/Portfolio';
 import DefaultProject from '../../components/projects/DefaultProject';
 
-const ProjectDetailPage = (props) => {
-  const projectTitle = props.params.projectName;
+interface ProjectDetailPageProps {
+  params: {
+    projectName: string;
+  };
+}
+
+const ProjectDetailPage: React.FC<ProjectDetailPageProps> = ({ params }) => {
+  const projectTitle = params.projectName;
   const project = projects.find(
     (project) => project.title.toLowerCase().replace(/\s+/g, '-') === projectTitle
   );
