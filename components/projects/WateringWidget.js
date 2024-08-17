@@ -8,26 +8,25 @@ const WateringWidget = ({ project }) => (
     </section>
     
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-2">개요</h2>
-      <p className="mb-4">1. <strong>배경화면 위젯:</strong> 위젯을 통해 물 섭취량을 기록할 수 있습니다.</p>
-      <p className="mb-4">2. <strong>로컬 데이터 이용:</strong> 지난 7일 간의 물 섭취량을 확인할 수 있습니다.</p>
+      <h2 className="text-2xl font-bold mb-2">Overview</h2>
+      <p className="mb-4">1. <strong>Home Screen Widget:</strong> Allows you to log your water intake through a widget.</p>
+      <p className="mb-4">2. <strong>Uses Local Data:</strong> You can review your water intake for the past 7 days.</p>
     </section>
 
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">문제 해결</h2>
-      <p className="mb-2">1. <strong>개발 동기</strong></p>
-      <p className="mb-4">친구의 요청으로 만들어진 어플입니다.</p>
-      <p className="mb-2">2. <strong>위젯과 어플간의 데이터 일관성</strong></p>
-      <p className="mb-4">위젯을 통해 기록한 물 섭취량이 어플에 반영되어야 함.</p>
-      <p className="mb-2">3. <strong>개발자 계정 & 파일 소실</strong></p>
-      <p className="mb-4">장기 비활동으로 인한 계정 정지, 맥북 이동으로 인한 데이터 소실</p>
-
+      <h2 className="text-2xl font-bold mb-4">Problem Solving</h2>
+      <p className="mb-2">1. <strong>Reason for Development</strong></p>
+      <p className="mb-4">This app was developed upon a friend's request.</p>
+      <p className="mb-2">2. <strong>Data Consistency Between Widget and App</strong></p>
+      <p className="mb-4">The water intake logged through the widget needed to be synchronized with the app data.</p>
+      <p className="mb-2">3. <strong>Developer Account & Data Loss</strong></p>
+      <p className="mb-4">Account suspension due to prolonged inactivity and data loss during MacBook migration.</p>
     </section>
 
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">배운점</h2>
-      <p className="mb-4">1. <strong>안드로이드 개발의 특징, IOS 개발과 다른점</strong></p>
-      <p className="mb-4">2. <strong>계정 및 파일 관리의 중요성</strong></p>
+      <h2 className="text-2xl font-bold mb-4">Lessons Learned</h2>
+      <p className="mb-4">1. <strong>Characteristics of Android Development and Differences from iOS Development</strong></p>
+      <p className="mb-4">2. <strong>The Importance of Account and File Management</strong></p>
     </section>
   </div>
 );

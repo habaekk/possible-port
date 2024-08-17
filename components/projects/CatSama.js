@@ -8,21 +8,21 @@ const CatSama = ({ project }) => (
     </section>
     
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">개요</h2>
-      <p>개요</p>
+      <h2 className="text-2xl font-bold mb-4">Overview</h2>
+      <p>Overview</p>
     </section>
 
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">문제 해결</h2>
-      <p>문제 해결 내용</p>
+      <h2 className="text-2xl font-bold mb-4">Problem Solving</h2>
+      <p>Problem Solving Details</p>
     </section>
 
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">성과</h2>
-      <p>성과</p>
+      <h2 className="text-2xl font-bold mb-4">Achievements</h2>
+      <p>Achievements</p>
     </section>
 
-    {/* CatSama에 대한 추가 내용 */}
+    {/* Additional details about CatSama */}
   </div>
 );
 

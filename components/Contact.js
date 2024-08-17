@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <div className="flex justify-center items-center mb-6">
       <section id="contact" className="p-6 text-center">
-        <h2 className="text-2xl font-bold mb-4">연락처</h2>
+        <h2 className="text-2xl font-bold mb-4">Contact</h2>
         <div className="flex items-center justify-center mb-4">
           <p className="mr-1">Email: {email}</p>
           <button onClick={copyToClipboard} className="p rounded text-sm text-white">

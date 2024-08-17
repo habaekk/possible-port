@@ -46,10 +46,10 @@ const Header = () => {
     <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
       <nav className="nav">
         <ul className="nav-list">
-          <li className="nav-item" onClick={scrollToTop}>홈</li>
-          <li className="nav-item" onClick={() => scrollToSection('projects')}>프로젝트</li>
-          <li className="nav-item" onClick={() => scrollToSection('about')}>내 정보</li>
-          <li className="nav-item" onClick={() => scrollToSection('contact')}>연락처</li>
+          <li className="nav-item" onClick={scrollToTop}>Home</li>
+          <li className="nav-item" onClick={() => scrollToSection('projects')}>Projects</li>
+          <li className="nav-item" onClick={() => scrollToSection('about')}>About Me</li>
+          <li className="nav-item" onClick={() => scrollToSection('contact')}>Contact</li>
         </ul>
       </nav>
     </header>

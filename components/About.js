@@ -15,7 +15,7 @@ const About = () => {
   return(
 
   <section id="about" className="p-6">
-    <h2 className="text-2xl font-bold mb-4">내 정보</h2>
+    <h2 className="text-2xl font-bold mb-4">About Me</h2>
     <div className="flex mb-8">
       <div className="w-1/3">
         <Image
@@ -28,7 +28,7 @@ const About = () => {
       </div>
       <div className="w-2/3 pl-8">
       <div className="flex items-center">
-            <h3 className="text-xl font-bold">박하백</h3>
+            <h3 className="text-xl font-bold">Bak Habaek</h3>
             {/* <div
               className="cursor-pointer"
               onClick={handleAboutMeClick}
@@ -44,23 +44,24 @@ const About = () => {
             */}
           </div>
         
-        <p className="font-bold">모바일을 좋아하는 프론트엔드 개발자</p>
+        <p className="font-bold">Front-End developer who likes mobile as well</p>
         <p className="font-bold"></p>
 
         <br />
-        <h3 className="text-xl font-bold mb-1">교육</h3>
-        <p><strong>서울과학기술대학교 (학사)</strong></p>
-        <p>ITM --{'>'} 컴퓨터공학과 [ 3.93 / 4.5 ]</p>
+        <h3 className="text-xl font-bold mb-1">Education</h3>
+        <p><strong>Seoul National University of Science and Technology</strong></p>
+        <p><strong>(Bachelor's degree)</strong></p>
+        <p>ITM --{'>'} Computer Science [ 3.93 / 4.5 ]</p>
         <br />
         <p><strong>Udemy (Online Education)</strong></p>
         <p>iOS & Swift - The Complete iOS App Development Bootcamp
         </p>
         <br />
-        <h3 className="text-xl font-bold mb-1">자격증</h3>
+        <h3 className="text-xl font-bold mb-1">Qualifications</h3>
         <ul className="list-disc list-inside">
           <li>TOEIC - 930/990</li>
           <li>TOEIC Speaking - 170 (AL)</li>
-          <li>정보처리기사</li>
+          <li>Engineer Information Processing</li>
           <li>SQLD</li>
         </ul>
       </div>

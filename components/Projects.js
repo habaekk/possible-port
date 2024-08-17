@@ -4,7 +4,7 @@ import './Projects.css';
 
 const Projects = () => (
   <section id="projects" className="projects-section mt-6">
-    <h2 className="text-2xl font-bold mb-5">프로젝트</h2>
+    <h2 className="text-2xl font-bold mb-5">Projects</h2>
     <div className="projects-grid">
       <ProjectItem
         image="/images/moonShape3.png"

@@ -4,42 +4,42 @@ const MoonShapeWidget = ({ project }) => (
   <div className="p-8">
     <h1 className="text-3xl font-bold mb-4">{project.title}</h1>
     <section className="mb-8">
-        <p>IOS Native Application, SwiftUI, XCode</p>
+        <p>iOS Native Application, SwiftUI, XCode</p>
     </section>
     
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-2">개요</h2>
-      <p className="mb-4">1. <strong>아이폰 잠금화면 위젯:</strong> 잠금화면에 그날의 달 위상 이미지를 표시합니다.</p>
-      <p className="mb-4">2. <strong>달력 기능:</strong> 달의 위상 변화를 날짜에 따라 확인할 수 있습니다.</p>
-      <p className="mb-4">3. <strong>AR 기능:</strong> 평면을 비추면 실제 하늘에서 달의 위치를 표시해줍니다.</p>
+      <h2 className="text-2xl font-bold mb-2">Overview</h2>
+      <p className="mb-4">1. <strong>iPhone Lock Screen Widget:</strong> Displays the moon phase image of the day on the lock screen.</p>
+      <p className="mb-4">2. <strong>Calendar Function:</strong> Allows users to track the changes in the moon's phases according to dates.</p>
+      <p className="mb-4">3. <strong>AR Feature:</strong> When pointing at a flat surface, it shows the moon's position in the sky.</p>
     </section>
 
 
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">문제 해결</h2>
-      <p className="mb-2">1. <strong>개발 계기</strong></p>
-      <p className="mb-4">IOS16 업데이트 - 잠금화면 위젯을 활용하는 어플을 만듬.</p>
-      <p className="mb-2">2. <strong>달의 위상 위젯 로직</strong></p>
-      <p className="mb-4">API - 한국천문연구원_음양력 정보 API 를 이용해 음력 날짜를 받아와 달의 위상 계산</p>
-      <p className="mb-2">3. <strong>AR 로직</strong></p>
-      <p className="mb-4">ARKit - 하늘에 달의 위치를 예측하기</p>
-      <p className="mb-2">4. <strong>리뷰 의견 반영</strong></p>
-      <p className="mb-1">꽉 차는 위젯 이미지</p>
-      <p className="mb-2">배경색에 따른 위젯 이미지</p>
+      <h2 className="text-2xl font-bold mb-4">Problem Solving</h2>
+      <p className="mb-2">1. <strong>Reason for Development</strong></p>
+      <p className="mb-4">iOS 16 Update - Created an app that utilizes lock screen widgets.</p>
+      <p className="mb-2">2. <strong>Moon Phase Widget Logic</strong></p>
+      <p className="mb-4">API - Utilized the Korea Astronomy and Space Science Institute’s lunar calendar API to fetch lunar dates and calculate the moon's phase.</p>
+      <p className="mb-2">3. <strong>AR Logic</strong></p>
+      <p className="mb-4">ARKit - Predicted the moon's position in the sky.</p>
+      <p className="mb-2">4. <strong>Incorporating User Feedback</strong></p>
+      <p className="mb-1">Full-sized widget images.</p>
+      <p className="mb-2">Widget images adjusted to match background color.</p>
     </section>
 
     <section className="mb-8">
-      <h2 className="text-2xl font-bold mb-4">성과</h2>
-      <p className="mb-2">1. <strong>앱스토어 날씨 카테고리 무료, 유료 앱 모두 1위</strong></p>
+      <h2 className="text-2xl font-bold mb-4">Achievements</h2>
+      <p className="mb-2">1. <strong>Ranked 1st in the App Store's Weather Category for Both Free and Paid Apps</strong></p>
       <p className="mb-4">image</p>
-      <p className="mb-2">2. <strong>앱스토어 날씨 카테고리 차트 유지</strong></p>
+      <p className="mb-2">2. <strong>Maintained Top Position in the App Store's Weather Category</strong></p>
       <p className="mb-4">image</p>
-      <p className="mb-2">3. <strong>무료 앱 꾸준한 다운로드 유입</strong></p>
+      <p className="mb-2">3. <strong>Consistent Influx of Downloads for the Free App</strong></p>
       <p className="mb-4">image</p>
 
     </section>
 
-    {/* Moon Shape Widget에 대한 추가 내용 */}
+    {/* Additional details about Moon Shape Widget */}
   </div>
 );
 
