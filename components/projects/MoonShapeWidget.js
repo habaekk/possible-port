@@ -25,15 +25,17 @@ const MoonShapeWidget = ({ project }) => (
       <p className="mb-2">4. <strong>Incorporating User Feedback</strong></p>
       <p className="mb-1">Full-sized widget images.</p>
       <p className="mb-2">Widget images adjusted to match background color.</p>
+      <p className="mb-2">5. <strong>Story Board vs SwiftUI</strong></p>
+      <p className="mb-2">Which to use ?</p>
+
+
     </section>
 
     <section className="mb-8">
       <h2 className="text-2xl font-bold mb-4">Achievements</h2>
       <p className="mb-2">1. <strong>Ranked 1st in the App Store&apos;s Weather Category for Both Free and Paid Apps</strong></p>
       <p className="mb-4">image</p>
-      <p className="mb-2">2. <strong>Maintained Top Position in the App Store&apos;s Weather Category</strong></p>
-      <p className="mb-4">image</p>
-      <p className="mb-2">3. <strong>Consistent Influx of Downloads for the Free App</strong></p>
+      <p className="mb-2">2. <strong>2k Downloads for the Free App</strong></p>
       <p className="mb-4">image</p>
     </section>
 
