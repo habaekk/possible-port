@@ -13,7 +13,7 @@ const HomeImage = () => (
     <div className="quote-box">
       <div className="quote">
         <span className="quote-mark left-quote">“</span>
-        <p className="quote-text">Software Developer</p>
+        <p className="quote-text">not because they are easy, but because they are hard - Kennedy </p>
         <span className="quote-mark right-quote">”</span>
       </div>
     </div>
