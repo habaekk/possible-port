@@ -1,6 +1,10 @@
 
 # 🚀 IMPOSSIBLE-POSSIBILITY 포트폴리오 🌟
 
+[English](https://github.com/habaekk/possible-port) | [한국어](https://github.com/habaekk/possible-port/blob/master/README_KR.md)
+
+  
+
 이 프로젝트는 Next.js를 사용하여 만든 개인 포트폴리오 웹사이트입니다. 개발자로서의 프로젝트, 기술, 경험을 소개합니다.
 
 ## 🔍 프로젝트 개요

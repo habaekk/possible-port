@@ -1,7 +1,8 @@
 
 # 🚀 IMPOSSIBLE-POSSIBILITY Portfolio 🌟
 
-[English]() | [한국어]()
+[English](https://github.com/habaekk/possible-port) | [한국어](https://github.com/habaekk/possible-port/blob/master/README_KR.md)
+
   
 
 This project is a personal portfolio website built using Next.js. It showcases my projects, skills, and experiences as a developer.
