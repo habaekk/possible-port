@@ -1,47 +1,22 @@
-"use client";
-
 import React from 'react';
 import Image from 'next/image';
-import { useRouter } from 'next/navigation';
 
 const About = () => {
-
-  const router = useRouter();
-
-  const handleAboutMeClick = () => {
-    router.push('/about_me');
-  };
-
   return (
     <section id="about" className="p-6">
       <h2 className="text-2xl font-bold mb-4">About Me</h2>
-      <div className="flex mb-8">
-        <div className="w-1/3">
+      <div className="flex flex-col md:flex-row mb-8">
+        <div className="md:w-1/3">
           <Image
-            src="/images/me5.jpg" // 이미지 경로 설정
+            src="/images/me5.jpg"
             alt="Profile Image of Bak Habaek"
-            width={300} // 이미지 너비 설정
-            height={500} // 이미지 높이 설정
+            width={300}
+            height={500}
             className="object-cover rounded-lg"
           />
         </div>
-        <div className="w-2/3 pl-8">
-          <div className="flex items-center">
-            <h3 className="text-xl font-bold">Bak Habaek</h3>
-            {/* Uncomment if needed for navigation */}
-            {/* <div
-              className="cursor-pointer"
-              onClick={handleAboutMeClick}
-              style={{
-                width: 0,
-                height: 0,
-                borderTop: '10px solid transparent',
-                borderBottom: '10px solid transparent',
-                borderLeft: '10px solid skyblue',
-                marginLeft: '10px',
-              }}
-            /> */}
-          </div>
+        <div className="md:w-2/3 md:pl-8 mt-4 md:mt-0">
+          <h3 className="text-xl font-bold">Bak Habaek</h3>
           <p className="font-bold">Front-End Developer with a passion for mobile development</p>
 
           <br />
@@ -69,3 +44,5 @@ const About = () => {
 };
 
 export default About;
+
+// 아이패드에서는 여전히 사진 사이즈와 텍스트 콘텐트의 높이가 안 맞음
