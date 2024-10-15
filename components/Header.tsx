@@ -1,18 +1,14 @@
+// Header.tsx
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import './Header.css';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 50) {
-        setIsScrolled(true);
-      } else {
-        setIsScrolled(false);
-      }
+      setIsScrolled(window.scrollY > 50);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -21,35 +17,28 @@ const Header = () => {
     };
   }, []);
 
-  const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      const headerOffset = 80; // Adjust based on your header height
-      const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      });
-    }
-  };
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth',
-    });
-  };
+  const navItemStyle = "cursor-pointer transition-colors duration-300 text-white md:text-lg text-base hover:text-yellow-400";
 
   return (
-    <header className={`header ${isScrolled ? 'scrolled' : ''}`}>
-      <nav className="nav">
-        <ul className="nav-list">
-          <li className="nav-item" onClick={scrollToTop}>Home</li>
-          <li className="nav-item" onClick={() => scrollToSection('projects')}>Projects</li>
-          <li className="nav-item" onClick={() => scrollToSection('about')}>About Me</li>
-          <li className="nav-item" onClick={() => scrollToSection('contact')}>Contact</li>
+    <header
+      className={`fixed top-0 w-full z-50 transition-all duration-300 backdrop-blur ${
+        isScrolled ? 'bg-customGreen py-4' : 'bg-transparent py-6'
+      }`}
+    >
+      <nav className="flex justify-center">
+        <ul className="flex space-x-8">
+          <li className={navItemStyle} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+            Home
+          </li>
+          <li className={navItemStyle} onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
+            Projects
+          </li>
+          <li className={navItemStyle} onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}>
+            About Me
+          </li>
+          <li className={navItemStyle} onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}>
+            Contact
+          </li>
         </ul>
       </nav>
     </header>

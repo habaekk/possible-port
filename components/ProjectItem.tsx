@@ -5,7 +5,7 @@ import Image from 'next/image';
 import { useRouter } from 'next/navigation';
 import './ProjectItem.css';
 
-const ProjectItem = ({ id, image, title, description }) => {
+const ProjectItem = ({ image, title, description } : { image: string, title: string, description: string }) => {
   const router = useRouter();
 
   const handleClick = () => {
