@@ -1,20 +1,21 @@
 import React from 'react';
 import Image from 'next/image';
-import './HomeImage.css';
 
 const HomeImage = () => (
-  <div className="home-image-container">
+  <div className="relative w-screen h-[950px] overflow-hidden">
     <Image
-      src="/images/main_green.webp" // 이미지 경로 설정
+      src="/images/main_green.webp"
       alt="Home Image"
-      layout="fill" // 이미지가 컨테이너를 꽉 채우도록 설정
-      objectFit="cover" // 이미지 비율 유지하며 꽉 채우기
+      layout="fill"
+      objectFit="cover"
     />
-    <div className="quote-box">
-      <div className="quote">
-        <span className="quote-mark left-quote">“</span>
-        <p className="quote-text">Web & Mobile</p>
-        <span className="quote-mark right-quote">”</span>
+    <div className="absolute inset-0 flex items-center justify-center">
+      <div className="bg-green-800 bg-opacity-70 p-12 rounded-lg max-w-lg text-center text-white">
+        <div className="relative">
+          <span className="absolute -top-5 -left-7 text-5xl font-bold text-white opacity-80">“</span>
+          <p className="text-2xl font-bold">Web & Mobile</p>
+          <span className="absolute -bottom-0 -right-7 text-5xl font-bold text-white opacity-80">”</span>
+        </div>
       </div>
     </div>
   </div>
