@@ -22,3 +22,5 @@ const HomeImage = () => (
 );
 
 export default HomeImage;
+
+// 여전히 디바이스 별 이미지 함
